@@ -14,6 +14,14 @@
     html {
       scrollbar-width: none;
     }
+
+    /* 薄く小さく表示 */
+    .footer-text {
+      font-size: 10px;
+      color: rgba(255, 255, 255, 0.5);
+      text-align: center;
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body class="bg-black text-white font-sans">
@@ -35,7 +43,7 @@
     </div>
     <div class="flex flex-col items-center">
       <div class="w-16 h-16 bg-gray-200 rounded-full"></div>
-      <span class="text-sm mt-2 text-gray-300">Dareka_Wakaranai</span>
+      <span class="text-sm mt-2 text-gray-300">Wakaranai</span>
     </div>
     <div class="flex flex-col items-center">
       <div class="w-16 h-16 bg-gray-200 rounded-full"></div>
@@ -59,23 +67,25 @@
       </div>
       <i class="fas fa-ellipsis-h text-gray-500"></i>
     </div>
-    <div class="bg-gradient-to-r from-pink-500 to-purple-500 h-80 rounded-lg"></div>
-    <div class="mt-3">
-      <button class="text-pink-500 font-bold">詳細を見る</button>
-    </div>
+    <!-- 投稿画像 -->
+    <div class="w-full h-80 bg-gray-200 rounded-lg mb-4" style="background-image: url('https://placehold.co/500x500'); background-size: cover; background-position: center;"></div>
+    
+    <!-- アクションアイコン -->
     <div class="flex justify-between items-center mt-4">
       <div class="flex space-x-4">
         <i class="far fa-heart"></i>
+        <span>8,397</span>
         <i class="far fa-comment"></i>
+        <span>64</span>
         <i class="fas fa-paper-plane"></i>
       </div>
       <i class="far fa-bookmark"></i>
     </div>
-    <p class="text-sm text-gray-500 mt-2">345,532 回の視聴</p>
+    <p class="text-sm text-gray-500 mt-2">716,872 回の視聴</p>
     <p class="mt-2">
-      <span class="font-bold">ユーザー名</span> フェリス マウリスの最大クルアビターは、ニブから効率的に食事をとります。
+      <span class="font-bold">出席番号3番の人</span> フェリス マウリスの最大クルアビターは、ニブから効率的に食事をとります。
     </p>
-    <p class="text-sm text-gray-500 mt-1">すべての77件のコメントを見る</p>
+    <p class="text-sm text-gray-500 mt-1">すべての64件のコメントを見る</p>
     <p class="text-sm text-gray-500 mt-1">3時間前</p>
   </div>
 
@@ -89,5 +99,11 @@
       <i class="fas fa-user text-xl"></i>
     </div>
   </nav>
+
+  <!-- フッター -->
+  <footer class="footer-text">
+    Create by 井上翔太 - 3-1 No.3<br>
+    Thank you for visit my site
+  </footer>
 </body>
 </html>
